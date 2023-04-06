@@ -1,1 +1,1 @@
-pretend i said something random.
+pretend i said something interesting.
