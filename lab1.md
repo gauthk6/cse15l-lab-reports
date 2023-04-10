@@ -1,2 +1,3 @@
 1. To install Visual Studio Code on macOS, you need to begin by downloading the application from a web browser. Once the download is complete, find the downloaded file or archive in the download list of your browser. After that, drag the Visual Studio Code.app to the Applications folder, and it will be accessible from the macOS Launchpad. Finally, you can open VS Code by double-clicking on its icon from the Applications folder.
-![Image](![Image](imageName.png))
+
+![Alt text]([URL or file path](https://docs.cse.lehigh.edu/images/installing-vscode-mac/installing-vscode-mac01.png))
