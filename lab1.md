@@ -1,3 +1,8 @@
 1. To install Visual Studio Code on macOS, you need to begin by downloading the application from a web browser. Once the download is complete, find the downloaded file or archive in the download list of your browser. After that, drag the Visual Studio Code.app to the Applications folder, and it will be accessible from the macOS Launchpad. Finally, you can open VS Code by double-clicking on its icon from the Applications folder.
 
 ![Image](https://docs.cse.lehigh.edu/images/installing-vscode-mac/installing-vscode-mac01.png)
+
+
+2. In order to remotely connect, first we have to open a terminal in VSCode, which we can do by clicking on the terminal button in the top left of your screen and selecting "New Terminal". After that, enter the following command: ssh cs15lsp23ge@ieng6.ucsd.edu (changing the initial portion of the login to your personalized login id). Finally, enter your password, and you should get the following expected output:
+
+![Image](<img width="536" alt="Screen Shot 2023-04-10 at 11 58 05 AM" src="https://user-images.githubusercontent.com/58676663/230973611-222073e2-0ab8-47c4-b145-b54d7b25f4e0.png">
