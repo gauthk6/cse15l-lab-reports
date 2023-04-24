@@ -49,14 +49,11 @@ return;
 
 ### Screenshot 1:
 - The handleRequest method of the StringHandler class is called.
-- The relevant argument to the handleRequest method is a URI object representing the URL of the request. The value of the URI object is http://localhost:8080/add-message?s=Hello@World, where localhost is the hostname, 8080 is the port number, /add-message is the path, and s="Hello World!" is the query -parameter.
+- The relevant argument to the handleRequest method is a URI object representing the URL of the request. The value of the URI object is http://localhost:8080/add-message?s=Hello@20World, where localhost is the hostname, 8080 is the port number, /add-message is the path, and s="Hello World!" is the query -parameter.
 - The message field of the StringHandler class is updated with the value "Hello World!" appended to the existing message string. The updated value of the message field is returned as the response.
 
 ### Screenshot 2:
 - The handleRequest method of the StringHandler class is called.
-- The relevant argument to the handleRequest method is a URI object representing the URL of the request. The value of the URI object is http://localhost:8080/add-message?s=My Name is Gautham Kishore, where localhost is the hostname, 8080 is the port number, /add-message is the path, and s="My Name is Gautham Kishore" is the query -parameter.
+- The relevant argument to the handleRequest method is a URI object representing the URL of the request. The value of the URI object is http://localhost:8080/add-message?s=My@20Name@20is@20Gautham@20Kishore, where localhost is the hostname, 8080 is the port number, /add-message is the path, and s="My Name is Gautham Kishore" is the query -parameter.
 - The message field of the StringHandler class is updated with the value "My Name is Gautham Kishore" appended to the existing message string. The updated value of the message field is returned as the response.
-
-
-
 
