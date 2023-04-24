@@ -35,4 +35,4 @@ Now that we are remotely connected to a computer in the CSE basement, we can exe
 You can try these commands and explore the file structure of the server. Here are some screenshots of running the `ls` command on the specified directory:
 
 ![Image](https://user-images.githubusercontent.com/58676663/231005349-c77b5f01-7316-4e63-aedd-160253769d9a.png)
-![Image](https://user-images.githubusercontent.com/58676663/231005349-c77b5f01-7316-4e63-aedd-160253769d9a.png)
+![Image](https://user-images.githubusercontent.com/58676663/233913331-92efba7b-89a8-4e77-963c-aca37d832c22.png)
