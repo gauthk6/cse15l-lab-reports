@@ -10,8 +10,7 @@ class StringHandler implements URLHandler {
 // various requests.
 String message = "";
 
-typescript
-Copy code
+
 public String handleRequest(URI url) {
     if (url.getPath().equals("/add-message")) {
         String[] parameters = url.getQuery().split("=");
@@ -35,8 +34,7 @@ System.out.println("Missing port number! Try any number between 1024 to 49151");
 return;
 }
 
-arduino
-Copy code
+
     int port = Integer.parseInt(args[0]);
 
     Server.start(port, new StringHandler());
