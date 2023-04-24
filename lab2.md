@@ -109,3 +109,12 @@ static void reverseInPlace(int[] arr) {
 
 ### Explanation of Fixes
 The given implementation of the reverseInPlace method has two issues. Firstly, it only swaps half of the array by assigning the value of `arr[arr.length - i - 1]` to `arr[i]` during each iteration, effectively undoing the reverse operation. To fix this, a temporary variable should be used to store the original value of an element before swapping. Secondly, the swapping operation `arr[i] = arr[arr.length - i - 1];` is incorrect for reversing an array in place as it results in all elements having the same value. Instead, a temporary variable should be used to store the original value of an element before swapping it, and then the temporary variable should be assigned to the correct position in the array. In essence, I implemented these changes in my fixed implementation above, and as a result this implementation passes all tests.
+
+
+
+## Part 3: What I Learned
+Here is a list of some particular things I learned how to do in the past 2 lab sessions:
+- I learned how to use the Java Built-In libraries to creat my own web server
+- I learned how to clone a git repository to a server, and how to use the GitHub API to do so with commands such as 'git pull', 'git clone', and 'git push'
+- I further developed my test development skills using the JUnit framework
+- Along those lines, I learned how to analyze programs to write effective tests that find any lingering bugs. I know for a fact this skill will be very useful in my future career.
