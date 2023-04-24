@@ -60,6 +60,8 @@ return;
 
 
 ## Part 2: Debugging and Analyzing Tests
+
+### A failure-inducing input for the buggy program:
 ```java
     @Test
   public void testReverseInPlace2() {
@@ -68,4 +70,15 @@ return;
 
     assertArrayEquals(new int[]{ 3, 2, 1 }, input1);
   } 
+```
+
+### An input that doesn’t induce a failure:
+```java
+@Test
+  public void testReverseInPlace3() {
+    int[] input1 = new int[]{ 1};
+    ArrayExamples.reverseInPlace(input1);
+
+    assertArrayEquals(new int[]{1}, input1);
+  }
 ```
