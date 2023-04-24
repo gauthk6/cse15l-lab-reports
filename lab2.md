@@ -82,3 +82,5 @@ return;
     assertArrayEquals(new int[]{1}, input1);
   }
 ```
+### Image of Terminal Output of Failed Test
+![Image](https://user-images.githubusercontent.com/58676663/234128409-6efde721-cafe-436a-880d-2519dd4985eb.png)
