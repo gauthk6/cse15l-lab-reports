@@ -60,8 +60,12 @@ return;
 
 
 ## Part 2: Debugging and Analyzing Tests
-
-
 ```java
-import java.io.IOException;
-import java.net.URI;
+    @Test
+  public void testReverseInPlace2() {
+    int[] input1 = new int[]{ 1, 2, 3 };
+    ArrayExamples.reverseInPlace(input1);
+
+    assertArrayEquals(new int[]{ 3, 2, 1 }, input1);
+  } 
+```
