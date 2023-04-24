@@ -84,3 +84,25 @@ return;
 ```
 ### Image of Terminal Output of Failed Test
 ![Image](https://user-images.githubusercontent.com/58676663/234128409-6efde721-cafe-436a-880d-2519dd4985eb.png)
+
+
+### Original Implementation(Buggy)
+```java
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+### Fixed Implementation(Passes Tests)
+```java
+static void reverseInPlace(int[] arr) {
+    if(arr.length < 2 || arr == null) { return; }
+
+    for(int i = 0; i < arr.length/2; i += 1) {
+      int temp = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = temp;
+    }
+  }
+```
