@@ -18,7 +18,8 @@ To remotely connect to a computer, follow the steps below:
 
 1. Open a terminal in VS Code by clicking on the terminal button in the top left of your screen and selecting "New Terminal".
 2. Enter the following command: `ssh cs15lsp23ge@ieng6.ucsd.edu` (change the initial portion of the login to your personalized login ID).
-3. Enter your password when prompted.
+  a. You can find your login ID and reset your password on the [following site](https://sdacs.ucsd.edu/~icc/index.php) 
+4. Enter your password when prompted.
 
 ![Image](https://user-images.githubusercontent.com/58676663/230973611-222073e2-0ab8-47c4-b145-b54d7b25f4e0.png)
 
