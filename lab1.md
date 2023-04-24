@@ -30,7 +30,6 @@ Now that we are remotely connected to a computer in the CSE basement, we can exe
 - `ls`: Lists the files and directories in the current directory.
 - `cd`: Changes the current directory.
 - `cat`: Displays the contents of a file.
-- `sudo`: Executes a command with superuser (administrator) privileges. (have used this previously)
 - `pwd`: Displays the current working directory.
 
 You can try these commands and explore the file structure of the server. Here are some screenshots of running the `ls` command on the specified directory:
