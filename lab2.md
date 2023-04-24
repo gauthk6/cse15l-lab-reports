@@ -106,3 +106,6 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
+
+### Explanation of Fixes
+The given implementation of the reverseInPlace method has two issues. Firstly, it only swaps half of the array by assigning the value of `arr[arr.length - i - 1]` to `arr[i]` during each iteration, effectively undoing the reverse operation. To fix this, a temporary variable should be used to store the original value of an element before swapping. Secondly, the swapping operation `arr[i] = arr[arr.length - i - 1];` is incorrect for reversing an array in place as it results in all elements having the same value. Instead, a temporary variable should be used to store the original value of an element before swapping it, and then the temporary variable should be assigned to the correct position in the array. In essence, I implemented these changes in my fixed implementation above, and as a result this implementation passes all tests.
