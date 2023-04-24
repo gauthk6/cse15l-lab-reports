@@ -41,6 +41,9 @@ return;
 }
 }
 ```
+## Examples of /add-message working as intended
+
+![Image](https://user-images.githubusercontent.com/58676663/233942503-8500772e-1aa3-484b-8a3d-2921e551d50b.png)
 
 
 
