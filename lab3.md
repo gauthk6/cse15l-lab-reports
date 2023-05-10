@@ -7,7 +7,8 @@
 grep -w "data" biomed/cc103.txt 
 ```
 
- between these individual disorders. Moreover, **data** drawn
+Resulting Output:
+     between these individual disorders. Moreover, **data** drawn
           **data** exist for these potential treatments. One exception
           considerations, and in the absence of clinical **data**,
           timing. While no **data** exist in humans, several lines of
