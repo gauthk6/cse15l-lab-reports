@@ -41,5 +41,11 @@ grep -w "sepsis" biomed/cc2167.txt
         overall population of severe sepsis patients with no
         end-point of less sepsis-induced death, potentially less
         mortality in severe sepsis. The treatment efficacy and
-        
+       
+In general, it seems that the ```grep -w``` command is used to search for whole word matches in a given text. When used with the ```-w ```option, grep will only match lines that contain the exact word specified, rather than partial matches within other words as we have seen earlier in prior lectures/labs.
+
+
+
+
+
  
