@@ -42,10 +42,36 @@ grep -w "sepsis" biomed/cc2167.txt
         end-point of less sepsis-induced death, potentially less
         mortality in severe sepsis. The treatment efficacy and
        
-In general, it seems that the ```grep -w``` command is used to search for whole word matches in a given text. When used with the ```-w ```option, grep will only match lines that contain the exact word specified, rather than partial matches within other words as we have seen earlier in prior lectures/labs.
+In general, it seems that the ```grep -w``` command is used to search for whole word matches in a given text. When used with the ```-w ```option, grep will only match lines that contain the exact word specified, rather than partial matches within other words as we have seen earlier in prior lectures/labs. The -w option is useful when we want to search for specific words without getting false positives from partial matches that may or may not be present.
 
 
+## Option 2: -m (maximum)
 
+### Input Command: grep -m 3 "data" biomed/cc103.txt
+```bash
+grep -m 3 "data" biomed/cc103.txt 
+```
 
+#### Resulting Output:
+     between these individual disorders. Moreover, data drawn
+          A MEDLINE search was conducted using databases from
+          data exist for these potential treatments. One exception
+        
+
+### Input Command: grep -m 7 "sepsis" biomed/cc2167.txt
+```bash
+grep -m 7 "sepsis" biomed/cc2167.txt 
+```
+
+#### Resulting Output:
+     treatment of adult patients with severe sepsis. Regulatory
+        A total of 1821 adult patients with severe sepsis were
+        all adult patients with severe sepsis enrolled in clinical
+          adult patients with severe sepsis and that were completed
+          clinicians treating patients with severe sepsis.
+          Severe sepsis was defined in all protocols as the
+          sepsis and have been at high risk for death (e.g. as
+          
+The ```grep -m```command seems to be usually used to restrict the number of matches that grep will return. By utilizing the -m option, we can set the maximum number of matches to retrieve (example 7 or 3 as shown above), and grep will halt the search for further matches once that limit is attained. This feature is especially beneficial when we are scanning through large files or directories with a large number of files to quickly locate the initial few instances of a given pattern.
 
  
