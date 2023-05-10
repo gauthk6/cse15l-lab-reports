@@ -1,5 +1,7 @@
 # Lab Report 3 - Researching The Grep Command (Week 5)
 
+All of the following commands were found either at the following website: https://www.geeksforgeeks.org/grep-command-in-unixlinux/# or as a result of querying ChatGPT for interesting ways to use the grep command. (chat.openai.com).
+
 ## Option 1: -w (whole word)
 
 ### Input Command: grep -w "data" biomed/cc103.txt
