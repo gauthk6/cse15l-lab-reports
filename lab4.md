@@ -17,4 +17,4 @@ For this step, I simply went to my fork of the repository on GitHub, and copied 
 
 ## Step 6: Run the tests, demonstrating that they fail
 
-![Image]("https://github.com/gauthk6/cse15l-lab-reports/assets/58676663/a4282b1f-97f6-4d46-bd45-2b3b90008584")
+![Image](https://github.com/gauthk6/cse15l-lab-reports/assets/58676663/a4282b1f-97f6-4d46-bd45-2b3b90008584)
