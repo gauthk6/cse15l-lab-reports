@@ -40,3 +40,5 @@ For this step, I kept hitting the ```<up>``` key until I got to the previous ins
 
 ![Image](https://github.com/gauthk6/cse15l-lab-reports/assets/58676663/c04142d6-08ec-4379-ad25-cd6758c23ca2)
 
+For this step, first I had to add the file to the staging area, which I did by typing ```git add ListExamples.java```. After that, I needed to commit the file to the repository, which I did by typing ```git commit- m "committed"``` where "committed" was my message. Finally, I pushed the file to the repository, which I did by typing ```git push``` which pushed the file to the repository.
+
