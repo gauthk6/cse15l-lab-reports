@@ -27,3 +27,16 @@ For this step, it was yet another simple one, as I just needed to run the given 
 ![Image](https://github.com/gauthk6/cse15l-lab-reports/assets/58676663/5f0603d7-9fff-44be-9743-ea652b14c571)
 
 For this step, I edited the code file to fix the failing test. In order to do so, I first openeed the file in vim, using the ``` vim ListExamples.java``` command. Once vim was open, in order to make the neccesary changes I hit the following series of commands: ```<43> <j> <e> <r> <2> <:wq>```. These commands did the following, ```43``` is the line number, ```j``` goes to the next line, ```e``` is the next command, ```r``` replaces a character of text, ```2``` is the character that I want to add in the place of 1 (as in index2 v.s index1) , and ```:wq``` is the last command that exits vim.
+
+
+## Step 8: Run the tests again
+For this step, I entered the following command in the terminal: ```bash test.sh``` yet again and got the following output:
+
+![Image](https://github.com/gauthk6/cse15l-lab-reports/assets/58676663/9b908f46-5335-4ccd-be03-f032d449a4bd)
+
+For this step, I kept hitting the ```<up>``` key until I got to the previous instance of running the above command. As we can see, all of the tests pass now!
+
+## Step 9: Commit and push the resulting change to your Github account
+
+![Image](https://github.com/gauthk6/cse15l-lab-reports/assets/58676663/c04142d6-08ec-4379-ad25-cd6758c23ca2)
+
