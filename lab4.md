@@ -16,5 +16,14 @@ For this step, I entered the following command in the terminal: ```git clone git
 For this step, I simply went to my fork of the repository on GitHub, and copied the ssh link, and then ran the above command in the terminal.
 
 ## Step 6: Run the tests, demonstrating that they fail
+For this step, I entered the following command in the terminal: ```bash test.sh``` and got the following output:
 
 ![Image](https://github.com/gauthk6/cse15l-lab-reports/assets/58676663/a4282b1f-97f6-4d46-bd45-2b3b90008584)
+
+For this step, it was yet another simple one, as I just needed to run the given script, so I ran the above command in the terminal without needing to navigate through much else.
+
+## Step 7: Edit the code file to fix the failing test
+
+![Image](https://github.com/gauthk6/cse15l-lab-reports/assets/58676663/5f0603d7-9fff-44be-9743-ea652b14c571)
+
+For this step, I edited the code file to fix the failing test. In order to do so, I first openeed the file in vim, using the ``` vim ListExamples.java``` command. Once vim was open, in order to make the neccesary changes I hit the following series of commands: ```<43> <j> <e> <r> <2> <:wq>```. These commands did the following, ```43``` is the line number, ```j``` goes to the next line, ```e``` is the next command, ```r``` replaces a character of text, ```2``` is the character that I want to replace, and ```:wq``` is the last command that exits vim.
