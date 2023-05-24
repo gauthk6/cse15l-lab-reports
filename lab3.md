@@ -7,6 +7,7 @@ All of the following commands were found either at the [Geeks for Geeks](https:/
 ```bash
 grep -w "data" biomed/cc103.txt 
 ```
+In the above line of code, I am using the ```grep -w``` command on the txt file located at ```biomed/cc103.txt```, and in particular I am searching for lines that contain the word "data" in them. 
 
 #### Resulting Output:
      between these individual disorders. Moreover, data drawn
@@ -21,6 +22,7 @@ grep -w "data" biomed/cc103.txt
 ```bash
 grep -w "sepsis" biomed/cc2167.txt 
 ```
+In the above line of code, I am using the ```grep -w``` command on the txt file located at ```biomed/cc2167.txt```, and in particular I am searching for lines that contain the word "sepsis" in them. 
 
 #### Resulting Output:
      treatment of adult patients with severe sepsis. Regulatory
@@ -52,6 +54,7 @@ In general, it seems that the ```grep -w``` command is used to search for whole 
 ```bash
 grep -m 3 "data" biomed/cc103.txt 
 ```
+In the above line of code, I am using the ```grep -m``` command on the txt file located at ```biomed/cc103.txt```, and in particular I am searching for lines that contain the word "data" in them but I am restricting the responses to a maximum of 3 instances.
 
 #### Resulting Output:
      between these individual disorders. Moreover, data drawn
@@ -63,6 +66,7 @@ grep -m 3 "data" biomed/cc103.txt
 ```bash
 grep -m 7 "sepsis" biomed/cc2167.txt 
 ```
+In the above line of code, I am using the ```grep -m``` command on the txt file located at ```biomed/cc2167.txt```, and in particular I am searching for lines that contain the word "sepsis" in them but I am restricting the responses to a maximum of 7 lines.
 
 #### Resulting Output:
      treatment of adult patients with severe sepsis. Regulatory
@@ -84,6 +88,8 @@ The ```grep -m```command seems to be usually used to restrict the number of matc
 ```bash
 grep -c "data" biomed/cc103.txt 
 ```  
+In the above line of code, I am using the ```grep -c``` command on the txt file located at ```biomed/cc103.txt```, and in particular I am finding the number of lines that contain the word "data" in them.
+
 #### Resulting Output:
     8
     
@@ -91,6 +97,9 @@ grep -c "data" biomed/cc103.txt
 ```bash
 grep -c "sepsis" biomed/cc2167.txt 
 ```  
+In the above line of code, I am using the ```grep -c``` command on the txt file located at ```biomed/cc2167.txt```, and in particular I am finding the number of lines that contain the word "sepsis" in them.
+
+
 #### Resulting Output:
     19
     
@@ -103,6 +112,8 @@ In general, the ```grep -c``` command is used to count the number of matches fou
 ```bash
 grep -l "atomic" biomed/*.txt 
 ```
+
+In the above line of code, I am using the ```grep -l``` command on all .txt files contained in ```biomed/``` , and in particular I am finding all files that contain the word "data" in them.
 
 #### Resulting Output:
      biomed/1471-2091-3-4.txt
@@ -161,6 +172,8 @@ grep -l "atomic" biomed/*.txt
 ```bash
 grep -l "sepsis" biomed/*.txt 
 ```
+In the above line of code, I am using the ```grep -l``` command on all .txt files contained in ```biomed/``` , and in particular I am finding all files that contain the word "sepsis" in them.
+
 #### Resulting Output:
      biomed/1471-2121-3-11.txt
      biomed/1471-2172-2-10.txt
