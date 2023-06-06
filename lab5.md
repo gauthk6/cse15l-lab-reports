@@ -14,3 +14,22 @@ Greetings! Usually, when an ArrayOutOfBounds error occurs, there is some sort of
 ## 3. Student Response
 Wow, I didn't know that! It turns out, you were right! I was looping through my input list and checking every index, including list.size()! As such, that was causing the ArrayOutOfBounds error. Now that I have changed that error, and rerun the grading script, I pass all the tests! Thanks for the help! Attached is a screenshot of the intended behavior.
 ![Image](https://github.com/gauthk6/cse15l-lab-reports/assets/58676663/1cee16c3-b0f4-46f2-bd74-a56082b6a102)
+
+## 4. Overview
+The file and directory structure needed was acquired by cloning the following git repository by using the following command: ``` git clone https://github.com/ucsd-cse15l-s23/grader-skill-demo2``` and this give us the following directory structure:
+
+![Image](https://github.com/gauthk6/cse15l-lab-reports/assets/58676663/20d484cf-a275-4e32-b2b0-a98cb6e46d98)
+
+After that, in order to run the grading script, I used the following command: ```bash grade.sh https://github.com/gauthk6/list-examples-duplicates.git```. The bug in the submission program was on line 13 in the screenshot below, where the termination condition was: ```i <= list.size()``` which caused the ArrayOutOfBounds error.
+
+![Image](https://github.com/gauthk6/cse15l-lab-reports/assets/58676663/07064f9b-9536-4cd3-90c3-3cd799161b06)
+
+The series of commands that I ran to demonstrate the bug were:
+```git clone https://github.com/ucsd-cse15l-s23/grader-skill-demo2```
+```bash grade.sh https://github.com/gauthk6/list-examples-duplicates.git```
+
+and the above screenshot from the "student" demonstrated that behavior. Moving on, we fixed the issue by simply deleting the equals sign on line 13, making the termination condition: ```i < list.size()``` as it should be. Running the bash script again on this updated submission, we get the response that all tests passed as seen above.
+
+
+
+
