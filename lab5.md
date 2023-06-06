@@ -31,5 +31,7 @@ The series of commands that I ran to demonstrate the bug were:
 and the above screenshot from the "student" demonstrated that behavior. Moving on, we fixed the issue by simply deleting the equals sign on line 13, making the termination condition: ```i < list.size()``` as it should be. Running the bash script again on this updated submission, we get the response that all tests passed as seen above.
 
 
+## Part 2: Reflection
+One thing I learned throughout the second half of this course that was super useful for me was working with bash scripts. This is because in my research job, I have to run a bunch of scripts that schedule jobs on remote computers in order to train large language models for various NLP tasks. For the longest time, I totally didn't know how bash scripts worked, so I just copy pasted the commands that my peers told me to run. However, this course helped me gain a basic understanding of how bash scripts work, and how to use them. That was definitely the most rewarding part of the back half of this course, as I have already found it incrediblh helpful!
 
 
