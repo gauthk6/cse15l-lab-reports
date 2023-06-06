@@ -5,7 +5,7 @@ For this step, I entered the following command in the terminal: ```ssh cs15lsp23
 
 ![Image](https://github.com/gauthk6/cse15l-lab-reports/assets/58676663/562336ef-8768-4caa-80e2-04bbff87e974)
 
-In order to do this, I kept hitting ```<up>``` and ```<down>``` keys until I got to the previous instance of running the above command.
+In order to do this, I kept hitting ```<up>``` and ```<down>``` keys until I got to the previous instance of running the above command. More precisely, I hit the ```<up>``` key three times exactly in order to get to this command.
 
 
 ## Step 5: Clone your fork of the repository from your Github account
@@ -34,7 +34,7 @@ For this step, I entered the following command in the terminal: ```bash test.sh`
 
 ![Image](https://github.com/gauthk6/cse15l-lab-reports/assets/58676663/9b908f46-5335-4ccd-be03-f032d449a4bd)
 
-For this step, I kept hitting the ```<up>``` key until I got to the previous instance of running the above command. As we can see, all of the tests pass now!
+For this step, I kept hitting the ```<up>``` key until I got to the previous instance of running the above command. As we can see, all of the tests pass now! More precisely, I hit the ```<up>``` key 5 times in order to get back to the previous instance of running this command.
 
 ## Step 9: Commit and push the resulting change to your Github account
 
